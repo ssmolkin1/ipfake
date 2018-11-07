@@ -1,0 +1,33 @@
+{
+  "name": "ipfake",
+  "version": "1.0.0",
+  "bin": {
+    "ipfake": "ipfake.js"
+  },
+  "description": "Simulates IPFS for local testing purposes.",
+  "main": "ipfake.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssmolkin1/ipfake"
+  },
+  "bugs": {
+    "url": "https://github.com/ssmolkin1/ipfake/issues"
+  },
+  "keywords": [
+    "IPFS",
+    "test",
+    "local",
+    "fake"
+  ],
+  "author": "Samuel Smolkin <sam@future-precedent.org>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bs58": "^4.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
